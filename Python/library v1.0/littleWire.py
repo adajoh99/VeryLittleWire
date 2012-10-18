@@ -1,5 +1,6 @@
 # File: littleWire.py
-# : Provides a Python interface to the Little Wire USB Multi-Tool
+# Version: v1.0
+# Purpose: Provides a Python interface to the Little Wire USB Multi-Tool
 #          developed by Ihsan Kehribar
 # Author: Adam Johnson
 # Copyright 2012 by Adam Johnson <apjohnson@gmail.com>

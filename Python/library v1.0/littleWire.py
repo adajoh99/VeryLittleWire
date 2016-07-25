@@ -158,7 +158,7 @@ class device:
 
     def pwm_updateCompare(self, channelA=0, channelB=0):
         """Sets the PWM value for both channels"""
-        self.lw.ctrl_transfer(bmRequestType=0xC0, bRequest=32,
+        self.lw.ctrl_transfer(bmRequestType=0xC0, bRequest=17,
                               wValue=channelA, wIndex=channelB,
                               data_or_wLength=8, timeout=USB_TIMEOUT)
 
